@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/btn_white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Username" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/btn_white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:background="@drawable/btn_white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/confirm_password" />
+
+    <EditText
+        android:id="@+id/txtSignEmail"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="@drawable/btn_white"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/txtCellNo"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/btn_white"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/cell_no" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/btn_round"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</RelativeLayout>
